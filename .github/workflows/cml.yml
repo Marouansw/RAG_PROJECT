@@ -46,10 +46,10 @@ jobs:
         uses: iterative/setup-cml@v1
 
       # Step 5: Train the model
-      - name: Train model
-        run: |
+      # - name: Train model
+      #   run: |
           # Install dependencies from requirements.txt
           # pip install -r requirements.txt
           
           # Run the training script
-          # python run.py
+           # python run.py
