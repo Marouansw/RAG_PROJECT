@@ -31,7 +31,7 @@ jobs:
       - name: Install isort
         run: pip install isort
   
-      - name: Auto-format imports with isort
+      # - name: Auto-format imports with isort
         # run: isort run.py
         
       # Step 3: Run Super-Linter to check for code quality issues
