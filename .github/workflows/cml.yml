@@ -16,6 +16,10 @@ jobs:
       # Step 1: Checkout code from the repository
       - name: Checkout code
         uses: actions/checkout@v3
+        
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
 
       # Step 2: Setup Python environment
       - name: Setup Python 3.12
