@@ -16,7 +16,7 @@ jobs:
       #   with:
       #     python-version: '3.x'
       - name: Run Super-Linter
-        uses: github/super-linter@v3
+        uses: github/super-linter@latest
         env: 
          DEFAULT_BRANCH: main
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
