@@ -27,6 +27,13 @@ jobs:
         with:
           python-version: '3.12.0'
 
+          
+      - name: Install isort
+        run: pip install isort
+  
+      - name: Auto-format imports with isort
+        run: isort run.py
+        
       # Step 3: Run Super-Linter to check for code quality issues
       - name: Run Super-Linter
         uses: github/super-linter@latest
